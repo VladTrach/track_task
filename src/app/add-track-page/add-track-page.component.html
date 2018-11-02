@@ -1,0 +1,26 @@
+<div class="list">
+  <div>
+    <mat-form-field>
+      <input matInput [(ngModel)]="number" placeholder="Number">
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field>
+      <input matInput [(ngModel)]="title" placeholder="Title">
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field>
+      <input matInput [(ngModel)]="viaPoints" placeholder="Viea points">
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field>
+      <input matInput [(ngModel)]="trackColor" placeholder="Track color">
+    </mat-form-field>
+  </div>
+</div>
+<div>
+  <button mat-raised-button (click)="addTrack()">add track</button>
+  <button mat-raised-button routerLink="/">Cancel</button>
+</div>
